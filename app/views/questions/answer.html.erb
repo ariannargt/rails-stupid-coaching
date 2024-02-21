@@ -1,0 +1,18 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+  <div class="card-body rectangle-9">
+    <blockquote class="blockquote mb-0">
+      <p><%= @ask  %></p>
+      <footer class="blockquote-footer">Tú </cite></footer>
+    </blockquote>
+  </div>
+    <div class="card-body yellow rectangle-9">
+    <blockquote class="blockquote mb-0">
+      <p><%= @answer  %></p>
+      <footer class="blockquote-footer">Coach</cite></footer>
+    </blockquote>
+  </div>
+  <div class="link">
+    <%= link_to "Dile algo más a tu coach", ask_path, class: "text-decoration-none"%>
+  </div>
+</div>
